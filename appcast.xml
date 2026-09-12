@@ -5,6 +5,26 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 1.0.2</title>
+      <description><![CDATA[
+<h3>Sépare Agentique de Zentty, corrige la compilation et termine la traduction</h3>
+<p>Agentique range désormais ses données à part : ~/.config/agentique et Application Support/Agentique. Au premier lancement, la configuration et les signets de Zentty sont repris une fois. Lancée depuis un terminal Zentty, l'app oublie les variables du volet d'origine au lieu de parler à l'autre instance.</p>
+<p>Les versions 1.0.0 et 1.0.1 avaient été compilées sans les réglages standard du projet (optimisation, testabilité) : xcodegen ne trouvait pas ses modèles de réglages. C'est corrigé ; l'app est à nouveau optimisée.</p>
+<p>Traduction : aide de la commande terminal (désormais « agentique » dans les volets), libellés VoiceOver, vrais pluriels, libellés courts dans les endroits étroits, vocabulaire moins technique pour les intégrations d'agents.</p>
+<p>Réglages : pastilles aux couleurs et dégradés des apps de l'atelier.</p>
+<p>Suivi de Zentty : scripts/suivre-zentty.sh récupère ses nouveautés.</p>
+<p>Tests : 4 000 tests logiques et d'intégration passent, à l'exception de 7 tests amont qui supposent un clavier QWERTY ou le dossier personnel de leur auteur.</p>
+      ]]></description>
+      <pubDate>Sat, 12 Sep 2026 21:31:21 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v1.0.2/Agentique-1.0.2.zip"
+                 sparkle:edSignature="ha5kGlJldcaU8qKgQhms7HW7qyvFqjMXja7N5YiCAnONEkM5oUbnzA3jnkaAfg7CAy+zFmndD65OxAou2+6HBA=="
+                 length="30875106"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <description><![CDATA[
 <h3>Corrige le plantage des Réglages et termine la traduction</h3>
