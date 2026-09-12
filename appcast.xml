@@ -5,6 +5,21 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 1.0.4</title>
+      <description><![CDATA[
+<h3>Ajoute des logs de diagnostic temporaires pour la dictée</h3>
+<p>firstRect(forCharacterRange:) renvoie un rectangle vide quand la dictée Apple l'interroge (« insertion point is 0,0 » dans les journaux système, qui fait échouer _startListening). Ces logs (catégorie DictationDiagnostics, niveau fault pour être toujours capturés) précisent si c'est window, surfaceController ou le caret lui-même qui est en cause à cet instant — à retirer une fois la vraie cause identifiée.</p>
+      ]]></description>
+      <pubDate>Sat, 12 Sep 2026 22:50:25 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v1.0.4/Agentique-1.0.4.zip"
+                 sparkle:edSignature="Rq9ulsLzn+XY2OrEw7tNSy8dtuflps6/OSMdbjVlgc2VQA0i4U/AsmBTu1xJu6tME5U9ic9Ic42EC8NL9s8UAg=="
+                 length="30877165"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.3</title>
       <description><![CDATA[
 <h3>Corrige les Serveurs de dev, ajoute la dictée Apple</h3>
