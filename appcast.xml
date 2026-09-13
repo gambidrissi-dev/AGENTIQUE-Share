@@ -5,6 +5,23 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 2.0.0</title>
+      <description><![CDATA[
+<h3>Ajoute le pilotage distant depuis le téléphone (via Tailscale)</h3>
+<p>Nouveau serveur HTTP local (RemoteHTTPServer, Swifter) qui liste les panes de toutes les fenêtres avec leur statut d'agent, permet de lire la sortie récente d'un pane et d'y envoyer du texte — répondre à une demande de permission se fait en tapant la réponse, comme dans le terminal. Réutilise l'infrastructure existante (taskManagerPaneSources, WorklaneAttentionSummary, readText, submitCommand) plutôt que de dupliquer la résolution cross-fenêtres.</p>
+<p>Jeton d'accès dans le trousseau macOS (RemoteControlKeychain), nouvelle section Réglages avec QR code, activation via AppConfig.remoteControl.</p>
+<p>Ce pilotage remplace celui qui vivait dans Syntax (RemoteServer y est restreint au loopback, pour ne garder que ce dont --chat/--tui ont besoin).</p>
+      ]]></description>
+      <pubDate>Sun, 13 Sep 2026 14:13:38 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v2.0.0/Agentique-2.0.0.zip"
+                 sparkle:edSignature="LmS/Mn/MBpEy+fE46d4oK9HItpswXPqepE2GZ0Dv9Vem/5dUFa3zWsv7yOmnneZZtV9M3c6C7XEcJ+KPgckUDQ=="
+                 length="31329427"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.7</title>
       <description><![CDATA[
 <h3>Retire les logs de diagnostic temporaires de la dictée</h3>
