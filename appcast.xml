@@ -5,6 +5,22 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 2.1.0</title>
+      <description><![CDATA[
+<h3>Étoffe le contrôle à distance : touches spéciales et création de pane</h3>
+<p>Le message texte + Entrée ne suffit pas à répondre aux menus interactifs (flèches) de Claude Code/Codex, et il n'y avait aucun moyen de lancer un nouveau terminal ou agent depuis le téléphone.</p>
+<p>- POST /api/panes/:id/key envoie une touche spéciale (flèches, Tab, Esc, Ctrl-C, Entrée) en réutilisant le vocabulaire et les séquences déjà utilisés par le compat tmux send-keys (TmuxCompatIPCHandler), qui gagne au passage la gestion des flèches. - POST /api/panes crée un worklane et y lance une commande (claude, codex, open -a Syntax…), en réutilisant createWorklaneForGrid/launchDeferredPane et le même shell-wrapping que le respawn tmux. - Page mobile : rangée de boutons flèches/Tab/Esc/Entrée/Ctrl-C dans le détail d'un pane, bouton + dans l'en-tête pour lancer une commande.</p>
+      ]]></description>
+      <pubDate>Wed, 16 Sep 2026 20:21:25 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v2.1.0/Agentique-2.1.0.zip"
+                 sparkle:edSignature="wO2/aByREzgzWmPp9Iw1ScFXc8QuZR+MsW3ciS/mUkjIVd8IXtT3ZHsdxlMAZ0/glNDfrbtSwGnoiS8UYgYOBQ=="
+                 length="31338096"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.0.1</title>
       <description><![CDATA[
 <h3>Ajoute le contrôle à distance à la barre latérale des Réglages</h3>
