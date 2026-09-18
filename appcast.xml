@@ -5,6 +5,24 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 2.2.0</title>
+      <description><![CDATA[
+<h3>Ajoute un vrai terminal au contrôle à distance et corrige les touches et le « + »</h3>
+<p>Les flèches, Tab, Échap, Entrée et Ctrl-C n'ont jamais fonctionné depuis le téléphone : ils passaient par ghostty_surface_text, enveloppé en bracketed paste, donc collés comme du texte au lieu d'être des touches. Ils passent maintenant par de vrais évènements clavier (RemoteInput décode les octets VT d'xterm.js).</p>
+<p>Le « + » ne lançait pas la commande : createWorklane() crée un pane à shell vivant alors que launchDeferredPane n'accepte que des panes différés, d'où une 500 après création du worklane. La commande est désormais passée à la création (WorklaneStore.createWorklane(nativeCommand:)). Plus de « claude » pré-rempli : champ vide, vide = terminal simple.</p>
+<p>La page mobile embarque xterm.js 6 (servi par l'app, MIT) et reflète la grille du Mac via GET /api/panes/:id/screen. Gestes : un doigt qui glisse = flèches, deux doigts = défiler, toucher = clavier. Liste groupée par worklane. Les routes /output, /message et /key, remplacées, sont retirées.</p>
+<p>Pas de couleurs ni de curseur : libghostty n'expose que le texte brut.</p>
+      ]]></description>
+      <pubDate>Fri, 18 Sep 2026 19:13:26 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v2.2.0/Agentique-2.2.0.zip"
+                 sparkle:edSignature="2NIumnqrkApG1IG8p0DGy7P2bfPGidgVvTlHxGa30Ubyue5t6yOAHzyNh1nRaBAPebZcn8P+vkUezQKxj3qiCQ=="
+                 length="31478922"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.1.0</title>
       <description><![CDATA[
 <h3>Étoffe le contrôle à distance : touches spéciales et création de pane</h3>
