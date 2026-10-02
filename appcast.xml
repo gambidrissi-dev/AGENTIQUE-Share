@@ -5,6 +5,20 @@
     <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
     <description>Mises à jour de Agentique</description>
     <item>
+      <title>Version 2.6.0</title>
+      <description><![CDATA[
+<h3>Nouvelle clé publique Sparkle : l'ancienne clé privée est perdue</h3>
+      ]]></description>
+      <pubDate>Fri, 02 Oct 2026 22:59:38 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v2.6.0/Agentique-2.6.0.zip"
+                 sparkle:edSignature="n2rCKTV2tqvo/Stb88bvywtab6VH67N3lJr00VpLYkoHhJVwdONNASHhG9ZjmCK3g8qU12bYTQ1unjdmMzKADQ=="
+                 length="31678466"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.5.0</title>
       <description><![CDATA[
 <h3>Réglage « Tourner en arrière-plan » : pas d'icône dans le Dock, fenêtres cachées au lancement, barre des menus forcée</h3>
