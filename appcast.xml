@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Agentique</title>
+    <link>https://github.com/gambidrissi-dev/AGENTIQUE-Share</link>
+    <description>Mises à jour de Agentique</description>
+    <item>
+      <title>Version 2.5.0</title>
+      <description><![CDATA[
+<h3>Réglage « Tourner en arrière-plan » : pas d'icône dans le Dock, fenêtres cachées au lancement, barre des menus forcée</h3>
+      ]]></description>
+      <pubDate>Wed, 30 Sep 2026 17:50:58 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/AGENTIQUE-Share/releases/download/v2.5.0/Agentique-2.5.0.zip"
+                 sparkle:edSignature="DYan7oUPsL8osMXCftmGhiMXXJK4DEkKM9oFKaDTT1yHAruJotorqg9a5Iqvm3X/Ev6nqGibNAMVI7IM7A8HBQ=="
+                 length="31503103"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
